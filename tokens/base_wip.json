@@ -1484,5 +1484,11 @@
       "value": "{neutral.light}",
       "type": "color"
     }
+  },
+  "interactive": {
+    "default": {
+      "value": "{primary.default}",
+      "type": "color"
+    }
   }
 }
