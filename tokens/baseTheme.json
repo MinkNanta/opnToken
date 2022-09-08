@@ -1402,6 +1402,10 @@
     "error": {
       "value": "{status.error.dark}",
       "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
     }
   },
   "borders": {
