@@ -1,12 +1,17 @@
 {
+  "button-radius": {
+    "value": "{rounded.md}",
+    "type": "borderRadius",
+    "description": "Radius controls for all buttons"
+  },
   "button": {
     "base": {
       "default": {
         "value": {
           "fill": "{interactive.default}",
-          "horizontalPadding": "{spacing.2xl}",
+          "horizontalPadding": "{spacing.xl}",
           "verticalPadding": "{spacing.lg}",
-          "borderRadius": "{button}",
+          "borderRadius": "{button-radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "borderWidth": "{border-width.none}"
@@ -16,9 +21,9 @@
       "hover": {
         "value": {
           "fill": "{interactive.hover}",
-          "horizontalPadding": "{spacing.2xl}",
+          "horizontalPadding": "{spacing.xl}",
           "verticalPadding": "{spacing.lg}",
-          "borderRadius": "{button}",
+          "borderRadius": "{button-radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "borderWidth": "{border-width.none}"
@@ -28,9 +33,9 @@
       "active": {
         "value": {
           "fill": "{interactive.pressed}",
-          "horizontalPadding": "{spacing.2xl}",
+          "horizontalPadding": "{spacing.xl}",
           "verticalPadding": "{spacing.lg}",
-          "borderRadius": "{button}",
+          "borderRadius": "{button-radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "borderWidth": "{border-width.none}"
@@ -40,9 +45,9 @@
       "focus": {
         "value": {
           "fill": "{interactive.default}",
-          "horizontalPadding": "{spacing.2xl}",
+          "horizontalPadding": "{spacing.xl}",
           "verticalPadding": "{spacing.lg}",
-          "borderRadius": "{button}",
+          "borderRadius": "{button-radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "border": "{interactive.focused}",
@@ -53,9 +58,9 @@
       "disabled": {
         "value": {
           "fill": "{interactive.disabled}",
-          "horizontalPadding": "{spacing.2xl}",
+          "horizontalPadding": "{spacing.xl}",
           "verticalPadding": "{spacing.lg}",
-          "borderRadius": "{button}",
+          "borderRadius": "{button-radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "border": "{borders.dark}",
