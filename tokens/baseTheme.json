@@ -1384,7 +1384,7 @@
       "type": "color"
     },
     "disabled": {
-      "value": "{neutral.light}",
+      "value": "{neutral.default}",
       "type": "color"
     },
     "link": {
@@ -1463,5 +1463,10 @@
       "value": "{neutral.lighter}",
       "type": "color"
     }
+  },
+  "button": {
+    "value": "{rounded.md}",
+    "type": "borderRadius",
+    "description": "Radius controls for all buttons"
   }
 }
