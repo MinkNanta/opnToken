@@ -1,20 +1,21 @@
 {
-  "button-radius": {
-    "value": "{rounded.md}",
-    "type": "borderRadius",
-    "description": "Radius controls for all buttons"
-  },
   "button": {
+    "radius": {
+      "value": "{rounded.md}",
+      "type": "borderRadius",
+      "description": "Radius controls for all buttons"
+    },
     "base": {
       "default": {
         "value": {
           "fill": "{interactive.default}",
-          "horizontalPadding": "{spacing.xl}",
-          "verticalPadding": "{button-py-giant}",
-          "borderRadius": "{button-radius}",
+          "horizontalPadding": "{button.px-medium}",
+          "verticalPadding": "{button.py-giant}",
+          "borderRadius": "{button.radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
-          "borderWidth": "{border-width.none}"
+          "borderWidth": "{border-width.none}",
+          "height": "{button.h-medium}"
         },
         "type": "composition"
       },
@@ -22,8 +23,8 @@
         "value": {
           "fill": "{interactive.hover}",
           "horizontalPadding": "{spacing.xl}",
-          "verticalPadding": "{button-py-giant}",
-          "borderRadius": "{button-radius}",
+          "verticalPadding": "{button.py-giant}",
+          "borderRadius": "{button.radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "borderWidth": "{border-width.none}"
@@ -34,8 +35,8 @@
         "value": {
           "fill": "{interactive.pressed}",
           "horizontalPadding": "{spacing.xl}",
-          "verticalPadding": "{button-py-giant}",
-          "borderRadius": "{button-radius}",
+          "verticalPadding": "{button.py-giant}",
+          "borderRadius": "{button.radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "borderWidth": "{border-width.none}"
@@ -46,8 +47,8 @@
         "value": {
           "fill": "{interactive.default}",
           "horizontalPadding": "{spacing.xl}",
-          "verticalPadding": "{button-py-giant}",
-          "borderRadius": "{button-radius}",
+          "verticalPadding": "{button.py-giant}",
+          "borderRadius": "{button.radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "border": "{interactive.focused}",
@@ -59,8 +60,8 @@
         "value": {
           "fill": "{interactive.disabled}",
           "horizontalPadding": "{spacing.xl}",
-          "verticalPadding": "{button-py-giant}",
-          "borderRadius": "{button-radius}",
+          "verticalPadding": "{button.py-giant}",
+          "borderRadius": "{button.radius}",
           "itemSpacing": "{spacing.lg}",
           "typography": "{desktop.button.medium}",
           "border": "{borders.dark}",
@@ -74,13 +75,13 @@
         "default": {
           "value": {
             "fill": "{interactive.default}",
-            "horizontalPadding": "{button-px-giant}",
-            "borderRadius": "{button-radius}",
+            "horizontalPadding": "{button.px-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.giant}",
             "borderWidth": "{border-width.none}",
-            "height": "{scale.14}",
-            "verticalPadding": "{button-py-giant}"
+            "height": "{button.h-giant}",
+            "verticalPadding": "{button.py-giant}"
           },
           "type": "composition"
         },
@@ -88,8 +89,8 @@
           "value": {
             "fill": "{interactive.hover}",
             "horizontalPadding": "{spacing.3xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.giant}",
             "borderWidth": "{border-width.none}"
@@ -100,8 +101,8 @@
           "value": {
             "fill": "{interactive.pressed}",
             "horizontalPadding": "{spacing.3xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.giant}",
             "borderWidth": "{border-width.none}"
@@ -112,8 +113,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.3xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.giant}",
             "border": "{interactive.focused}",
@@ -125,8 +126,8 @@
           "value": {
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.3xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.giant}",
             "border": "{borders.dark}",
@@ -139,12 +140,13 @@
         "default": {
           "value": {
             "fill": "{interactive.default}",
-            "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "horizontalPadding": "{button.px-large}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
-            "borderWidth": "{border-width.none}"
+            "borderWidth": "{border-width.none}",
+            "height": "{button.h-large}"
           },
           "type": "composition"
         },
@@ -152,8 +154,8 @@
           "value": {
             "fill": "{interactive.hover}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.none}"
@@ -164,8 +166,8 @@
           "value": {
             "fill": "{interactive.pressed}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.none}"
@@ -176,8 +178,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "border": "{interactive.focused}",
@@ -189,8 +191,8 @@
           "value": {
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "border": "{borders.dark}",
@@ -204,8 +206,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.none}"
@@ -216,8 +218,8 @@
           "value": {
             "fill": "{interactive.hover}",
             "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.none}"
@@ -228,8 +230,8 @@
           "value": {
             "fill": "{interactive.pressed}",
             "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.none}"
@@ -240,8 +242,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "border": "{interactive.focused}",
@@ -253,8 +255,8 @@
           "value": {
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "border": "{borders.dark}",
@@ -267,12 +269,13 @@
         "default": {
           "value": {
             "fill": "{interactive.default}",
-            "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{spacing.sm}",
-            "borderRadius": "{button-radius}",
+            "horizontalPadding": "{button.px-medium}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.sm}",
             "typography": "{desktop.button.small}",
-            "borderWidth": "{border-width.none}"
+            "borderWidth": "{border-width.none}",
+            "height": "{button.h-small}"
           },
           "type": "composition"
         },
@@ -281,7 +284,7 @@
             "fill": "{interactive.hover}",
             "horizontalPadding": "{spacing.xl}",
             "verticalPadding": "{spacing.sm}",
-            "borderRadius": "{button-radius}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.sm}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
@@ -293,7 +296,7 @@
             "fill": "{interactive.pressed}",
             "horizontalPadding": "{spacing.xl}",
             "verticalPadding": "{spacing.sm}",
-            "borderRadius": "{button-radius}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.sm}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
@@ -305,7 +308,7 @@
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.xl}",
             "verticalPadding": "{spacing.sm}",
-            "borderRadius": "{button-radius}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.sm}",
             "typography": "{desktop.button.small}",
             "border": "{interactive.focused}",
@@ -318,7 +321,7 @@
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.xl}",
             "verticalPadding": "{spacing.sm}",
-            "borderRadius": "{button-radius}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.sm}",
             "typography": "{desktop.button.small}",
             "border": "{borders.dark}",
@@ -333,8 +336,8 @@
         "default": {
           "value": {
             "horizontalPadding": "{spacing.xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.large.regular}",
             "borderWidth": "{border-width.sm}",
@@ -346,8 +349,8 @@
         "hover": {
           "value": {
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.large.regular}",
             "borderWidth": "{border-width.sm}",
@@ -359,8 +362,8 @@
         "active": {
           "value": {
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.large.regular}",
             "borderWidth": "{border-width.sm}",
@@ -372,8 +375,8 @@
         "focus": {
           "value": {
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.large.regular}",
             "borderWidth": "{border-width.lg}",
@@ -384,8 +387,8 @@
         "disabled": {
           "value": {
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.large.regular}",
             "borderWidth": "{border-width.sm}",
@@ -399,8 +402,8 @@
         "default": {
           "value": {
             "horizontalPadding": "{4xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.sm}",
@@ -413,8 +416,8 @@
           "value": {
             "fill": "{neutral.lightest}",
             "horizontalPadding": "{4xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.sm}"
@@ -425,8 +428,8 @@
           "value": {
             "fill": "{neutral.lighter}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "borderWidth": "{border-width.sm}",
@@ -438,8 +441,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "border": "{interactive.focused}",
@@ -451,8 +454,8 @@
           "value": {
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
             "border": "{borders.dark}",
@@ -466,8 +469,8 @@
           "value": {
             "fill": "{sys.purple.800}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "borderWidth": "{border-width.none}"
@@ -478,8 +481,8 @@
           "value": {
             "fill": "{interactive.hover}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "borderWidth": "{border-width.none}"
@@ -490,8 +493,8 @@
           "value": {
             "fill": "{interactive.pressed}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "borderWidth": "{border-width.none}"
@@ -502,8 +505,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "border": "{interactive.focused}",
@@ -515,8 +518,8 @@
           "value": {
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "border": "{borders.dark}",
@@ -530,8 +533,8 @@
           "value": {
             "fill": "{sys.purple.800}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "borderWidth": "{border-width.none}"
@@ -542,8 +545,8 @@
           "value": {
             "fill": "{interactive.hover}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "borderWidth": "{border-width.none}"
@@ -554,8 +557,8 @@
           "value": {
             "fill": "{interactive.pressed}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "borderWidth": "{border-width.none}"
@@ -566,8 +569,8 @@
           "value": {
             "fill": "{interactive.default}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "border": "{interactive.focused}",
@@ -579,8 +582,8 @@
           "value": {
             "fill": "{interactive.disabled}",
             "horizontalPadding": "{spacing.2xl}",
-            "verticalPadding": "{button-py-giant}",
-            "borderRadius": "{button-radius}",
+            "verticalPadding": "{button.py-giant}",
+            "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{body.small.regular}",
             "border": "{borders.dark}",
@@ -589,15 +592,39 @@
           "type": "composition"
         }
       }
+    },
+    "py-giant": {
+      "value": "0",
+      "type": "spacing",
+      "description": "padding-top: 0px; padding-bottom: 0px;"
+    },
+    "px-giant": {
+      "value": "{spacing.3xl}",
+      "type": "spacing"
+    },
+    "px-large": {
+      "value": "{spacing.2xl}",
+      "type": "spacing"
+    },
+    "px-medium": {
+      "value": "{spacing.xl}",
+      "type": "spacing"
+    },
+    "h-giant": {
+      "value": "{scale.14}",
+      "type": "sizing"
+    },
+    "h-large": {
+      "value": "{scale.12}",
+      "type": "sizing"
+    },
+    "h-medium": {
+      "value": "{scale.10}",
+      "type": "sizing"
+    },
+    "h-small": {
+      "value": "{scale.8}",
+      "type": "sizing"
     }
-  },
-  "button-py-giant": {
-    "value": "0",
-    "type": "spacing",
-    "description": "padding-top: 0px; padding-bottom: 0px;"
-  },
-  "button-px-giant": {
-    "value": "{spacing.3xl}",
-    "type": "spacing"
   }
 }
