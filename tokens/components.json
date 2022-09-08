@@ -389,7 +389,7 @@
       "giant": {
         "default": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}",
             "horizontalPadding": "{button.px-giant}",
@@ -430,7 +430,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "border": "{interactive.focused}",
             "borderWidth": "{border-width.xl}",
             "height": "{button.h-giant}",
@@ -460,7 +460,7 @@
       "large": {
         "default": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "border": "{borders.dark}",
             "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
@@ -502,7 +502,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "border": "{interactive.focused}",
             "height": "{button.h-large}",
             "horizontalPadding": "{button.px-large}",
@@ -532,7 +532,7 @@
       "medium": {
         "default": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -573,7 +573,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -603,7 +603,7 @@
       "small": {
         "default": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -645,7 +645,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{neutral.white}",
+            "fill": "{none}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -951,5 +951,9 @@
         }
       }
     }
+  },
+  "none": {
+    "value": "rgba(255,255,255,0.1)",
+    "type": "color"
   }
 }
