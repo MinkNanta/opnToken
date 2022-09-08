@@ -1,0 +1,7 @@
+{
+  "button": {
+    "value": "{rounded.md}",
+    "type": "borderRadius",
+    "description": "Radius controls for all buttons"
+  }
+}
