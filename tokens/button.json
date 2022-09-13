@@ -389,7 +389,7 @@
       "giant": {
         "default": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}",
             "horizontalPadding": "{button.px-giant}",
@@ -403,7 +403,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{neutral.lightest}",
+            "fill": "{theme.neutral.lightest}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}",
             "horizontalPadding": "{button.px-giant}",
@@ -416,7 +416,7 @@
         },
         "active": {
           "value": {
-            "fill": "{neutral.lighter}",
+            "fill": "{theme.neutral.lighter}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}",
             "height": "{button.h-giant}",
@@ -430,7 +430,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "border": "{interactive.focused}",
             "borderWidth": "{border-width.xl}",
             "height": "{button.h-giant}",
@@ -460,7 +460,7 @@
       "large": {
         "default": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "border": "{borders.dark}",
             "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
@@ -474,7 +474,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{neutral.lightest}",
+            "fill": "{theme.neutral.lightest}",
             "border": "{borders.dark}",
             "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
@@ -488,7 +488,7 @@
         },
         "active": {
           "value": {
-            "fill": "{neutral.lighter}",
+            "fill": "{theme.neutral.lighter}",
             "border": "{borders.dark}",
             "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
@@ -502,7 +502,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "border": "{interactive.focused}",
             "height": "{button.h-large}",
             "horizontalPadding": "{button.px-large}",
@@ -532,7 +532,7 @@
       "medium": {
         "default": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -546,7 +546,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{neutral.lightest}",
+            "fill": "{theme.neutral.lightest}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -559,7 +559,7 @@
         },
         "active": {
           "value": {
-            "fill": "{neutral.lighter}",
+            "fill": "{theme.neutral.lighter}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -573,7 +573,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -603,7 +603,7 @@
       "small": {
         "default": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -617,7 +617,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{neutral.lightest}",
+            "fill": "{theme.neutral.lightest}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -631,7 +631,7 @@
         },
         "active": {
           "value": {
-            "fill": "{neutral.lighter}",
+            "fill": "{theme.neutral.lighter}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -645,7 +645,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{none}",
+            "fill": "{bg.none}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -677,7 +677,7 @@
       "giant": {
         "default": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "horizontalPadding": "{button.px-giant}",
             "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
@@ -690,7 +690,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{status.error.dark}",
+            "fill": "{theme.status.error.dark}",
             "height": "{button.h-giant}",
             "horizontalPadding": "{button.px-giant}",
             "verticalPadding": "{button.py-auto}",
@@ -703,7 +703,7 @@
         },
         "active": {
           "value": {
-            "fill": "{status.error.darker}",
+            "fill": "{theme.status.error.darker}",
             "height": "{button.h-giant}",
             "horizontalPadding": "{button.px-giant}",
             "verticalPadding": "{button.py-auto}",
@@ -716,14 +716,14 @@
         },
         "focus": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "height": "{button.h-giant}",
             "horizontalPadding": "{button.px-giant}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.giant}",
-            "border": "{status.error.lighter}",
+            "border": "{theme.status.error.lighter}",
             "borderWidth": "{border-width.xl}"
           },
           "type": "composition"
@@ -746,7 +746,7 @@
       "large": {
         "default": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "height": "{button.h-large}",
             "horizontalPadding": "{button.px-large}",
             "verticalPadding": "{button.py-auto}",
@@ -759,7 +759,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{status.error.dark}",
+            "fill": "{theme.status.error.dark}",
             "height": "{button.h-large}",
             "horizontalPadding": "{button.px-large}",
             "verticalPadding": "{button.py-auto}",
@@ -772,7 +772,7 @@
         },
         "active": {
           "value": {
-            "fill": "{status.error.darker}",
+            "fill": "{theme.status.error.darker}",
             "height": "{button.h-large}",
             "horizontalPadding": "{button.px-large}",
             "verticalPadding": "{button.py-auto}",
@@ -785,13 +785,13 @@
         },
         "focus": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "height": "{button.h-large}",
             "horizontalPadding": "{button.px-large}",
             "verticalPadding": "{button.py-auto}",
             "itemSpacing": "{spacing.lg}",
             "typography": "{desktop.button.medium}",
-            "border": "{status.error.lighter}",
+            "border": "{theme.status.error.lighter}",
             "borderWidth": "{border-width.xl}",
             "borderRadius": "{button.radius}"
           },
@@ -815,7 +815,7 @@
       "medium": {
         "default": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -828,7 +828,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{status.error.dark}",
+            "fill": "{theme.status.error.dark}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -841,7 +841,7 @@
         },
         "active": {
           "value": {
-            "fill": "{status.error.darker}",
+            "fill": "{theme.status.error.darker}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -854,7 +854,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
@@ -884,7 +884,7 @@
       "small": {
         "default": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -897,7 +897,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{status.error.dark}",
+            "fill": "{theme.status.error.dark}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -910,7 +910,7 @@
         },
         "active": {
           "value": {
-            "fill": "{status.error.darker}",
+            "fill": "{theme.status.error.darker}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -923,7 +923,7 @@
         },
         "focus": {
           "value": {
-            "fill": "{status.error.default}",
+            "fill": "{theme.status.error.default}",
             "height": "{button.h-small}",
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
@@ -951,9 +951,5 @@
         }
       }
     }
-  },
-  "none": {
-    "value": "rgba(255,255,255,0.1)",
-    "type": "color"
   }
 }
