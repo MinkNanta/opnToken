@@ -1417,7 +1417,7 @@
     },
     "disabled": {
       "type": "color",
-      "value": "{theme.neutral.default}"
+      "value": "{theme.neutral.light}"
     },
     "link": {
       "type": "color",
