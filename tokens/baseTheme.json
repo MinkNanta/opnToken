@@ -1436,15 +1436,11 @@
       "value": "{theme.status.error.dark}"
     },
     "white": {
-      "value": "#ffffff",
+      "value": "{theme.neutral.white}",
       "type": "color"
     }
   },
   "borders": {
-    "grey": {
-      "type": "color",
-      "value": "{theme.neutral.light}"
-    },
     "primary": {
       "type": "color",
       "value": "{theme.primary.default}"
