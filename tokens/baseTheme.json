@@ -1139,6 +1139,38 @@
     "xl": {
       "value": "{spacing.default}*2",
       "type": "spacing"
+    },
+    "2xl": {
+      "value": "{spacing.default}*2.5",
+      "type": "spacing"
+    },
+    "3xl": {
+      "value": "{spacing.default}*3",
+      "type": "spacing"
+    },
+    "4xl": {
+      "value": "{spacing.default}*4",
+      "type": "spacing"
+    },
+    "5xl": {
+      "value": "{spacing.default}*5",
+      "type": "spacing"
+    },
+    "6xl": {
+      "value": "{spacing.default}*6",
+      "type": "spacing"
+    },
+    "7xl": {
+      "value": "{spacing.default}*8",
+      "type": "spacing"
+    },
+    "8xl": {
+      "value": "{spacing.default}*10",
+      "type": "spacing"
+    },
+    "9xl": {
+      "value": "{spacing.default}*15",
+      "type": "spacing"
     }
   },
   "scale": {
