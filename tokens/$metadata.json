@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "baseTheme",
-    "button"
+    "buttons",
+    "alerts"
   ]
 }
