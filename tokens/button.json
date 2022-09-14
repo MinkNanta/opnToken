@@ -290,7 +290,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
           },
@@ -303,7 +303,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
           },
@@ -316,7 +316,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
           },
@@ -329,7 +329,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "border": "{interactive.focused}",
             "borderWidth": "{border-width.lg}"
@@ -343,7 +343,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}"
@@ -358,11 +358,11 @@
       "description": "padding-top: 0px; padding-bottom: 0px;"
     },
     "px-giant": {
-      "value": "{spacing.3xl}",
+      "value": "{spacing.lg}",
       "type": "spacing"
     },
     "px-large": {
-      "value": "{spacing.2xl}",
+      "value": "{spacing.default}",
       "type": "spacing"
     },
     "px-medium": {
@@ -608,7 +608,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.sm}",
             "border": "{borders.dark}"
@@ -622,7 +622,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.sm}",
             "border": "{borders.dark}"
@@ -636,7 +636,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.sm}",
             "border": "{borders.dark}"
@@ -650,7 +650,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "border": "{interactive.focused}",
             "borderWidth": "{border-width.lg}"
@@ -664,7 +664,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}"
@@ -889,7 +889,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
           },
@@ -902,7 +902,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
           },
@@ -915,7 +915,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "borderWidth": "{border-width.none}"
           },
@@ -928,7 +928,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "border": "{interactive.focused}",
             "borderWidth": "{border-width.lg}"
@@ -942,7 +942,7 @@
             "horizontalPadding": "{button.px-medium}",
             "verticalPadding": "{button.py-auto}",
             "borderRadius": "{button.radius}",
-            "itemSpacing": "{spacing.sm}",
+            "itemSpacing": "{spacing.2xs}",
             "typography": "{desktop.button.small}",
             "border": "{borders.dark}",
             "borderWidth": "{border-width.sm}"

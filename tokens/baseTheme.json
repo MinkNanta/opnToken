@@ -1112,28 +1112,32 @@
       "value": "{base.default}*0",
       "type": "spacing"
     },
+    "2xs": {
+      "value": "{spacing.default}*0.25",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "{spacing.default}*0.5",
+      "type": "spacing"
+    },
     "sm": {
-      "value": "{base.default}*0.25",
+      "value": "{spacing.default}*0.75",
+      "type": "spacing"
+    },
+    "default": {
+      "value": "{base.default}",
       "type": "spacing"
     },
     "md": {
-      "value": "{base.default}*0.375",
+      "value": "{spacing.default}*1.25",
       "type": "spacing"
     },
     "lg": {
-      "value": "{base.default}*0.5",
+      "value": "{spacing.default}*1.5",
       "type": "spacing"
     },
     "xl": {
-      "value": "{base.default}* 0.75",
-      "type": "spacing"
-    },
-    "2xl": {
-      "value": "{base.default}*1",
-      "type": "spacing"
-    },
-    "3xl": {
-      "value": "{base.default}*1.5",
+      "value": "{spacing.default}*2",
       "type": "spacing"
     }
   },
