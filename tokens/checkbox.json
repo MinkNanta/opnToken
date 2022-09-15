@@ -17,9 +17,7 @@
     "rounded": {
       "value": "{rounded.sm}",
       "type": "borderRadius"
-    }
-  },
-  "checkbox-container": {
+    },
     "normal": {
       "small": {
         "default": {
@@ -241,6 +239,30 @@
     "disabled": {
       "value": {
         "fill": "{text.light-grey}"
+      },
+      "type": "composition"
+    }
+  },
+  "checkbox-label": {
+    "title": {
+      "value": {
+        "typography": "{desktop.button.medium}",
+        "fill": "{text.grey}"
+      },
+      "type": "composition"
+    },
+    "subtitle": {
+      "value": {
+        "typography": "{desktop.button.small}",
+        "fill": "{text.light-grey}"
+      },
+      "type": "composition"
+    }
+  },
+  "checkbox-container": {
+    "gap": {
+      "value": {
+        "itemSpacing": "{spacing.xs}"
       },
       "type": "composition"
     }
