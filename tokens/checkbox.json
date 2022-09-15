@@ -13,128 +13,10 @@
     "padding": {
       "value": "{spacing.xxxs}",
       "type": "spacing"
-    }
-  },
-  "checkbox-color": {
-    "normal": {
-      "default": {
-        "bg": {
-          "value": "{interactive.disabled}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{borders.dark}",
-          "type": "color"
-        }
-      },
-      "hover": {
-        "bg": {
-          "value": "{bg.none}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{interactive.default}",
-          "type": "color"
-        }
-      },
-      "focus": {
-        "bg": {
-          "value": "{interactive.focused}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{interactive.default}",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "bg": {
-          "value": "{interactive.disabled}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{borders.dark}",
-          "type": "color"
-        }
-      },
-      "error": {
-        "bg": {
-          "value": "{bg.error}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{borders.error}",
-          "type": "color"
-        }
-      }
     },
-    "checked": {
-      "default": {
-        "bg": {
-          "value": "{interactive.default}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{interactive.default}",
-          "type": "color"
-        },
-        "icon": {
-          "value": "{text.white}",
-          "type": "color"
-        }
-      },
-      "hover": {
-        "bg": {
-          "value": "{interactive.hover}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{interactive.hover}",
-          "type": "color"
-        },
-        "icon": {
-          "value": "{text.white}",
-          "type": "color"
-        }
-      },
-      "focus": {
-        "bg": {
-          "value": "{interactive.hover}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{interactive.focused}",
-          "type": "color"
-        },
-        "icon": {
-          "value": "{text.white}",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "bg": {
-          "value": "{interactive.disabled}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{borders.dark}",
-          "type": "color"
-        },
-        "icon": {
-          "value": "{text.light-grey}",
-          "type": "color"
-        }
-      },
-      "error": {
-        "bg": {
-          "value": "{bg.error}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{borders.error}",
-          "type": "color"
-        }
-      }
+    "rounded": {
+      "value": "{rounded.sm}",
+      "type": "borderRadius"
     }
   },
   "checkbox-container": {
@@ -143,45 +25,55 @@
         "default": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.normal.default.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.disabled}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.default.border}"
+            "border": "{borders.dark}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.normal.hover.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{bg.none}",
             "borderWidth": "{border-width.md}",
-            "border": "{checkbox-color.normal.hover.border}"
+            "border": "{interactive.default}"
           },
           "type": "composition"
         },
         "focus": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.normal.focus.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.focused}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.focus.border}"
+            "border": "{interactive.default}"
           },
           "type": "composition"
         },
         "disabled": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.normal.disabled.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.disabled}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.disabled.border}"
+            "border": "{borders.dark}"
           },
           "type": "composition"
         },
         "error": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.normal.error.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{bg.error}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.error.border}"
+            "border": "{borders.error}"
           },
           "type": "composition"
         }
@@ -190,45 +82,55 @@
         "default": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.normal.default.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.disabled}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.default.border}"
+            "border": "{borders.dark}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.normal.hover.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{bg.none}",
             "borderWidth": "{border-width.md}",
-            "border": "{checkbox-color.normal.hover.border}"
+            "border": "{interactive.default}"
           },
           "type": "composition"
         },
         "focus": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.normal.focus.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.focused}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.focus.border}"
+            "border": "{interactive.default}"
           },
           "type": "composition"
         },
         "disabled": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.normal.disabled.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.disabled}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.disabled.border}"
+            "border": "{borders.dark}"
           },
           "type": "composition"
         },
         "error": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.normal.error.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{bg.error}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.normal.error.border}"
+            "border": "{borders.error}"
           },
           "type": "composition"
         }
@@ -239,36 +141,44 @@
         "default": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.checked.default.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.default}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.checked.default.border}"
+            "border": "{interactive.default}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.checked.hover.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.hover}",
             "borderWidth": "{border-width.md}",
-            "border": "{checkbox-color.checked.hover.border}"
+            "border": "{interactive.hover}"
           },
           "type": "composition"
         },
         "focus": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.checked.focus.bg}",
-            "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.checked.focus.border}"
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.hover}",
+            "borderWidth": "{border-width.md}",
+            "border": "{interactive.focused}"
           },
           "type": "composition"
         },
         "disabled": {
           "value": {
             "sizing": "{checkbox.size.sm}",
-            "fill": "{checkbox-color.checked.disabled.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.disabled}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.checked.disabled.border}"
+            "border": "{borders.dark}"
           },
           "type": "composition"
         }
@@ -277,40 +187,62 @@
         "default": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.checked.default.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.default}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.checked.default.border}"
+            "border": "{interactive.default}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.checked.hover.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.hover}",
             "borderWidth": "{border-width.md}",
-            "border": "{checkbox-color.checked.hover.border}"
+            "border": "{interactive.hover}"
           },
           "type": "composition"
         },
         "focus": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.checked.focus.bg}",
-            "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.checked.focus.border}"
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.hover}",
+            "borderWidth": "{border-width.md}",
+            "border": "{interactive.focused}"
           },
           "type": "composition"
         },
         "disabled": {
           "value": {
             "sizing": "{checkbox.size.md}",
-            "fill": "{checkbox-color.checked.disabled.bg}",
+            "spacing": "{checkbox.padding}",
+            "borderRadius": "{checkbox.rounded}",
+            "fill": "{interactive.disabled}",
             "borderWidth": "{border-width.sm}",
-            "border": "{checkbox-color.checked.disabled.border}"
+            "border": "{borders.dark}"
           },
           "type": "composition"
         }
       }
+    }
+  },
+  "checkbox-tick-color": {
+    "checked": {
+      "value": {
+        "fill": "{text.white}"
+      },
+      "type": "composition"
+    },
+    "disabled": {
+      "value": {
+        "fill": "{text.light-grey}"
+      },
+      "type": "composition"
     }
   }
 }
