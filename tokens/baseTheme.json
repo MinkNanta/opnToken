@@ -1124,7 +1124,11 @@
       "value": "{base.default}*0",
       "type": "spacing"
     },
-    "2xs": {
+    "xxxs": {
+      "value": "{spacing.default}*0.125",
+      "type": "spacing"
+    },
+    "xxs": {
       "value": "{spacing.default}*0.25",
       "type": "spacing"
     },

@@ -1,0 +1,28 @@
+{
+  "checkbox": {
+    "size": {
+      "sm": {
+        "value": "{scale.4}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{scale.5}",
+        "type": "sizing"
+      }
+    },
+    "default": {
+      "bg": {
+        "value": "{interactive.disabled}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{borders.dark}",
+        "type": "color"
+      }
+    },
+    "padding": {
+      "value": "{spacing.xxxs}",
+      "type": "spacing"
+    }
+  }
+}
