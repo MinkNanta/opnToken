@@ -1333,85 +1333,6 @@
       "type": "borderWidth"
     }
   },
-  "shadow": {
-    "xs": {
-      "value": {
-        "x": "0",
-        "y": "1",
-        "blur": "2",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "sm": {
-      "value": {
-        "x": "0",
-        "y": "1",
-        "blur": "3",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "md": {
-      "value": {
-        "x": "0",
-        "y": "4",
-        "blur": "6",
-        "spread": "-1",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "lg": {
-      "value": {
-        "x": "0",
-        "y": "10",
-        "blur": "15",
-        "spread": "-3",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "xl": {
-      "value": {
-        "x": "0",
-        "y": "20",
-        "blur": "25",
-        "spread": "-5",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "2xl": {
-      "value": {
-        "x": "0",
-        "y": "25",
-        "blur": "50",
-        "spread": "-12",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "inner": {
-      "value": {
-        "x": "0",
-        "y": "2",
-        "blur": "4",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.48)",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow"
-    }
-  },
   "bg": {
     "default": {
       "type": "color",
@@ -1830,6 +1751,125 @@
         },
         "type": "typography"
       }
+    }
+  },
+  "shadows": {
+    "3xl": {
+      "value": {
+        "color": "#13192624",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 32,
+        "blur": 64,
+        "spread": -12
+      },
+      "type": "boxShadow"
+    },
+    "2xl": {
+      "value": {
+        "color": "#1319262e",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 24,
+        "blur": 48,
+        "spread": -12
+      },
+      "type": "boxShadow"
+    },
+    "xl": {
+      "value": [
+        {
+          "color": "#13192608",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 8,
+          "spread": -4
+        },
+        {
+          "color": "#13192614",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 20,
+          "blur": 24,
+          "spread": -4
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "lg": {
+      "value": [
+        {
+          "color": "#13192608",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 6,
+          "spread": -2
+        },
+        {
+          "color": "#13192614",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 12,
+          "blur": 16,
+          "spread": -4
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "md": {
+      "value": [
+        {
+          "color": "#1319260f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": -2
+        },
+        {
+          "color": "#1319261a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": -2
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "sm": {
+      "value": [
+        {
+          "color": "#1319260f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#1319261a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "xs": {
+      "value": {
+        "color": "#1319260d",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0
+      },
+      "type": "boxShadow"
     }
   }
 }
