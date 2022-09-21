@@ -93,8 +93,6 @@
     "focus": {
       "value": {
         "fill": "{interactive.default}",
-        "borderWidth": "{border-width.lg}",
-        "border": "{interactive.focused}",
         "height": "{button-height.medium}",
         "typography": "{desktop.button.medium}",
         "paddingRight": "{button-px.medium}",
@@ -102,7 +100,7 @@
         "borderRadius": "{button-rounded.radius}"
       },
       "type": "composition",
-      "description": "color: var(--opn-text-white);"
+      "description": "color: var(--opn-text-white);  outline-width: var(--opn-border-width-lg); outline-color: var(--opn-interactive-focused); outline-style: solid;"
     },
     "disabled": {
       "value": {
