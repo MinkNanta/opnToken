@@ -56,7 +56,8 @@
         "height": "{button-height.medium}",
         "typography": "{desktop.button.medium}",
         "paddingRight": "{button-px.medium}",
-        "paddingLeft": "{button-px.medium}"
+        "paddingLeft": "{button-px.medium}",
+        "borderRadius": "{button-rounded.radius}"
       },
       "type": "composition",
       "description": "color: var(--opn-text-white);"
@@ -69,7 +70,8 @@
         "height": "{button-height.medium}",
         "typography": "{desktop.button.medium}",
         "paddingRight": "{button-px.medium}",
-        "paddingLeft": "{button-px.medium}"
+        "paddingLeft": "{button-px.medium}",
+        "borderRadius": "{button-rounded.radius}"
       },
       "type": "composition",
       "description": "color: var(--opn-text-white);"
@@ -82,7 +84,8 @@
         "height": "{button-height.medium}",
         "typography": "{desktop.button.medium}",
         "paddingRight": "{button-px.medium}",
-        "paddingLeft": "{button-px.medium}"
+        "paddingLeft": "{button-px.medium}",
+        "borderRadius": "{button-rounded.radius}"
       },
       "type": "composition",
       "description": "color: var(--opn-text-white);"
@@ -95,7 +98,8 @@
         "height": "{button-height.medium}",
         "typography": "{desktop.button.medium}",
         "paddingRight": "{button-px.medium}",
-        "paddingLeft": "{button-px.medium}"
+        "paddingLeft": "{button-px.medium}",
+        "borderRadius": "{button-rounded.radius}"
       },
       "type": "composition",
       "description": "color: var(--opn-text-white);"
@@ -108,7 +112,8 @@
         "height": "{button-height.medium}",
         "typography": "{desktop.button.medium}",
         "paddingRight": "{button-px.medium}",
-        "paddingLeft": "{button-px.medium}"
+        "paddingLeft": "{button-px.medium}",
+        "borderRadius": "{button-rounded.radius}"
       },
       "type": "composition",
       "description": "color: var(--opn-text-placeholder);"
