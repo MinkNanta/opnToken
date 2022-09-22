@@ -17,6 +17,16 @@
       "type": "spacing"
     }
   },
+  "button-gap": {
+    "normal": {
+      "value": "{spacing.xs}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{spacing.xxs}",
+      "type": "spacing"
+    }
+  },
   "button-rounded": {
     "radius": {
       "value": "{rounded.md}",
@@ -260,16 +270,6 @@
     }
   },
   "class": {
-    "button-gap": {
-      "normal": {
-        "value": "{spacing.xs}",
-        "type": "spacing"
-      },
-      "small": {
-        "value": "{spacing.xxs}",
-        "type": "spacing"
-      }
-    },
     "default": {
       "default": {
         "value": {
