@@ -2,27 +2,27 @@
   "theme": {
     "primary": {
       "darker": {
-        "value": "{sys.blue.800}",
+        "value": "#03522c",
         "type": "color"
       },
       "dark": {
-        "value": "{sys.blue.700}",
+        "value": "#11854d",
         "type": "color"
       },
       "default": {
-        "value": "{sys.blue.600}",
+        "value": "#28b873",
         "type": "color"
       },
       "light": {
-        "value": "{sys.blue.500}",
+        "value": "#48eb9d",
         "type": "color"
       },
       "lighter": {
-        "value": "{sys.blue.100}",
+        "value": "#9effd0",
         "type": "color"
       },
       "lightest": {
-        "value": "{sys.blue.50}",
+        "value": "#edfff6",
         "type": "color"
       }
     },
@@ -62,27 +62,27 @@
     },
     "secondary": {
       "darker": {
-        "value": "{sys.blue.800}",
+        "value": "#5c4700",
         "type": "color"
       },
       "dark": {
-        "value": "{sys.blue.700}",
+        "value": "#8f710b",
         "type": "color"
       },
       "default": {
-        "value": "{sys.blue.600}",
+        "value": "#c29d1e",
         "type": "color"
       },
       "light": {
-        "value": "{sys.blue.500}",
+        "value": "#f5cb39",
         "type": "color"
       },
       "lighter": {
-        "value": "{sys.blue.100}",
+        "value": "#ffe793",
         "type": "color"
       },
       "lightest": {
-        "value": "{sys.blue.50}",
+        "value": "#fffaeb",
         "type": "color"
       }
     },

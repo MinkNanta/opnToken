@@ -3,6 +3,8 @@
     "baseTheme",
     "buttons",
     "alerts",
-    "checkbox"
+    "checkbox",
+    "baseBrand01",
+    "buttonsBrand01"
   ]
 }
