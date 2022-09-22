@@ -250,7 +250,7 @@
             "borderWidth": "{border-width.none}"
           },
           "type": "composition",
-          "description": "color: var(--opn-text-white);  outline-width: var(--opn-border-width-lg); outline-color: var(--opn-theme-state-error-lighter); outline-style: solid;"
+          "description": "color: var(--opn-text-white);  outline-width: var(--opn-border-width-lg); outline-color: var(--opn-theme-status-error-lighter); outline-style: solid;"
         },
         "disabled": {
           "value": {
