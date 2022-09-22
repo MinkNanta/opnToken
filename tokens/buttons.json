@@ -202,9 +202,7 @@
       "destruction": {
         "default": {
           "value": {
-            "fill": "{bg.none}",
-            "borderWidth": "{border-width.sm}",
-            "border": "{borders.dark}",
+            "fill": "{theme.status.error.default}",
             "height": "{button-height.medium}",
             "typography": "{desktop.button.medium}",
             "paddingRight": "{button-px.medium}",
@@ -212,13 +210,11 @@
             "borderRadius": "{button-rounded.radius}"
           },
           "type": "composition",
-          "description": "color: var(--opn-text-gray);"
+          "description": "color: var(--opn-text-white);"
         },
         "hover": {
           "value": {
-            "fill": "{theme.neutral.lightest}",
-            "borderWidth": "{border-width.sm}",
-            "border": "{borders.dark}",
+            "fill": "{theme.status.error.dark}",
             "height": "{button-height.medium}",
             "typography": "{desktop.button.medium}",
             "paddingRight": "{button-px.medium}",
@@ -226,13 +222,11 @@
             "borderRadius": "{button-rounded.radius}"
           },
           "type": "composition",
-          "description": "color: var(--opn-text-gray);"
+          "description": "color: var(--opn-text-white);"
         },
         "active": {
           "value": {
-            "fill": "{theme.neutral.lighter}",
-            "borderWidth": "{border-width.sm}",
-            "border": "{borders.dark}",
+            "fill": "{theme.status.error.darker}",
             "height": "{button-height.medium}",
             "typography": "{desktop.button.medium}",
             "paddingRight": "{button-px.medium}",
@@ -240,11 +234,11 @@
             "borderRadius": "{button-rounded.radius}"
           },
           "type": "composition",
-          "description": "color: var(--opn-text-gray);"
+          "description": "color: var(--opn-text-white);"
         },
         "focus": {
           "value": {
-            "fill": "{bg.none}",
+            "fill": "{theme.status.error.default}",
             "height": "{button-height.medium}",
             "typography": "{desktop.button.medium}",
             "paddingRight": "{button-px.medium}",
@@ -252,7 +246,7 @@
             "borderRadius": "{button-rounded.radius}"
           },
           "type": "composition",
-          "description": "color: var(--opn-text-gray);  outline-width: var(--opn-border-width-lg); outline-color: var(--opn-interactive-focused); outline-style: solid;"
+          "description": "color: var(--opn-text-white);  outline-width: var(--opn-border-width-lg); outline-color: var(--opn-theme-state-error-lighter); outline-style: solid;"
         },
         "disabled": {
           "value": {
