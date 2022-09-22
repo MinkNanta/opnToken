@@ -1,10 +1,6 @@
 {
   "tokenSetOrder": [
     "baseTheme",
-    "buttons",
-    "alerts",
-    "checkbox",
-    "baseBrand01",
-    "buttonsBrand01"
+    "button"
   ]
 }
