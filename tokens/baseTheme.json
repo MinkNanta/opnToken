@@ -2,27 +2,27 @@
   "theme": {
     "primary": {
       "darker": {
-        "value": "#03522c",
+        "value": "{sys.blue.800}",
         "type": "color"
       },
       "dark": {
-        "value": "#11854d",
+        "value": "{sys.blue.700}",
         "type": "color"
       },
       "default": {
-        "value": "#28b873",
+        "value": "{sys.blue.600}",
         "type": "color"
       },
       "light": {
-        "value": "#48eb9d",
+        "value": "{sys.blue.500}",
         "type": "color"
       },
       "lighter": {
-        "value": "#9effd0",
+        "value": "{sys.blue.100}",
         "type": "color"
       },
       "lightest": {
-        "value": "#edfff6",
+        "value": "{sys.blue.50}",
         "type": "color"
       }
     },
