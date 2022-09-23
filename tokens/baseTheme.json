@@ -755,10 +755,36 @@
       },
       "type": "typography"
     },
+    "d1-light": {
+      "value": {
+        "fontFamily": "{type.display}",
+        "fontWeight": "{font-weights.extralight}",
+        "lineHeight": "{leading.tight}",
+        "fontSize": "{font-sizes.11xl}",
+        "letterSpacing": "{letter-spacing.tighter}",
+        "paragraphSpacing": "{paragraph-spacing.none}",
+        "textCase": "{transform.normal}",
+        "textDecoration": "{style.none}"
+      },
+      "type": "typography"
+    },
     "d2": {
       "value": {
         "fontFamily": "{type.display}",
         "fontWeight": "{font-weights.semibold}",
+        "lineHeight": "{leading.tight}",
+        "fontSize": "{font-sizes.10xl}",
+        "letterSpacing": "{letter-spacing.tighter}",
+        "paragraphSpacing": "{paragraph-spacing.none}",
+        "textCase": "{transform.normal}",
+        "textDecoration": "{style.none}"
+      },
+      "type": "typography"
+    },
+    "d2-light": {
+      "value": {
+        "fontFamily": "{type.display}",
+        "fontWeight": "{font-weights.extralight}",
         "lineHeight": "{leading.tight}",
         "fontSize": "{font-sizes.10xl}",
         "letterSpacing": "{letter-spacing.tighter}",
@@ -1483,10 +1509,36 @@
       },
       "type": "typography"
     },
+    "m-d1-light": {
+      "value": {
+        "fontFamily": "{type.display}",
+        "fontWeight": "{font-weights.extralight}",
+        "lineHeight": "{leading.tight}",
+        "fontSize": "{font-sizes.8xl}",
+        "letterSpacing": "{letter-spacing.tighter}",
+        "paragraphSpacing": "{paragraph-spacing.none}",
+        "textCase": "{transform.normal}",
+        "textDecoration": "{style.none}"
+      },
+      "type": "typography"
+    },
     "m-d2": {
       "value": {
         "fontFamily": "{type.display}",
         "fontWeight": "{font-weights.semibold}",
+        "lineHeight": "{leading.tight}",
+        "fontSize": "{font-sizes.6xl}",
+        "letterSpacing": "{letter-spacing.tighter}",
+        "paragraphSpacing": "{paragraph-spacing.none}",
+        "textCase": "{transform.normal}",
+        "textDecoration": "{style.none}"
+      },
+      "type": "typography"
+    },
+    "m-d2-light": {
+      "value": {
+        "fontFamily": "{type.display}",
+        "fontWeight": "{font-weights.extralight}",
         "lineHeight": "{leading.tight}",
         "fontSize": "{font-sizes.6xl}",
         "letterSpacing": "{letter-spacing.tighter}",
