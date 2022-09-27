@@ -27,6 +27,10 @@
       }
     },
     "neutral": {
+      "darkest": {
+        "value": "{sys.neutral.800}",
+        "type": "color"
+      },
       "darker": {
         "value": "{sys.neutral.700}",
         "type": "color"
@@ -1436,6 +1440,14 @@
     },
     "none": {
       "value": "rgba(255,255,255,0.1)",
+      "type": "color"
+    },
+    "dark": {
+      "value": "{theme.neutral.darkest}",
+      "type": "color"
+    },
+    "black": {
+      "value": "{theme.neutral.black}",
       "type": "color"
     }
   },
