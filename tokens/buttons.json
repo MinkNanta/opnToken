@@ -1,59 +1,59 @@
 {
   "button-px": {
     "giant": {
-      "value": "{spacing.3xl}",
+      "value": "{theme-spacing.3xl}",
       "type": "spacing"
     },
     "large": {
-      "value": "{spacing.2xl}",
+      "value": "{theme-spacing.2xl}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{spacing.2xl}",
+      "value": "{theme-spacing.2xl}",
       "type": "spacing"
     },
     "small": {
-      "value": "{spacing.xl}",
+      "value": "{theme-spacing.xl}",
       "type": "spacing"
     }
   },
   "button-gap": {
     "normal": {
-      "value": "{spacing.xs}",
+      "value": "{theme-spacing.xs}",
       "type": "spacing"
     },
     "small": {
-      "value": "{spacing.xxs}",
+      "value": "{theme-spacing.xxs}",
       "type": "spacing"
     }
   },
   "button-rounded": {
     "radius": {
-      "value": "{rounded.2xl}",
+      "value": "{theme-rounded.2xl}",
       "type": "borderRadius",
       "description": "Radius controls for all buttons"
     },
     "pill": {
-      "value": "{rounded.full}",
+      "value": "{theme-rounded.full}",
       "type": "borderRadius",
       "description": "Radius controls for all buttons"
     }
   },
   "button-height": {
     "giant": {
-      "value": "{scale.32}",
+      "value": "{theme-scale.32}",
       "type": "sizing"
     },
     "large": {
-      "value": "{scale.24}",
+      "value": "{theme-scale.24}",
       "type": "sizing"
     },
     "medium": {
-      "value": "{scale.20}",
+      "value": "{theme-scale.20}",
       "type": "sizing"
     },
     "small": {
-      "value": "{scale.16}",
+      "value": "{theme-scale.16}",
       "type": "sizing"
     }
   },
@@ -63,10 +63,10 @@
         "default": {
           "value": {
             "fill": "{interactive.default}",
-            "borderWidth": "{border-width.none}",
+            "borderWidth": "{theme-border-width.none}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -77,10 +77,10 @@
         "hover": {
           "value": {
             "fill": "{interactive.hover}",
-            "borderWidth": "{border-width.none}",
+            "borderWidth": "{theme-border-width.none}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -91,10 +91,10 @@
         "active": {
           "value": {
             "fill": "{interactive.pressed}",
-            "borderWidth": "{border-width.none}",
+            "borderWidth": "{theme-border-width.none}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -106,7 +106,7 @@
           "value": {
             "fill": "{interactive.default}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -117,10 +117,10 @@
         "disabled": {
           "value": {
             "fill": "{interactive.disabled}",
-            "borderWidth": "{border-width.sm}",
+            "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -133,10 +133,10 @@
         "default": {
           "value": {
             "fill": "{theme.status.warning.light}",
-            "borderWidth": "{border-width.sm}",
+            "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -147,10 +147,10 @@
         "hover": {
           "value": {
             "fill": "{theme.status.warning.dark}",
-            "borderWidth": "{border-width.sm}",
+            "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -161,10 +161,10 @@
         "active": {
           "value": {
             "fill": "{theme.secondary.light}",
-            "borderWidth": "{border-width.sm}",
+            "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -176,7 +176,7 @@
           "value": {
             "fill": "{theme.secondary.lighter}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -187,10 +187,10 @@
         "disabled": {
           "value": {
             "fill": "{interactive.disabled}",
-            "borderWidth": "{border-width.sm}",
+            "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -204,11 +204,11 @@
           "value": {
             "fill": "{theme.status.error.default}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
-            "borderWidth": "{border-width.none}"
+            "borderWidth": "{theme-border-width.none}"
           },
           "type": "composition",
           "description": "color: var(--opn-text-white);"
@@ -217,11 +217,11 @@
           "value": {
             "fill": "{theme.status.error.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
-            "borderWidth": "{border-width.none}"
+            "borderWidth": "{theme-border-width.none}"
           },
           "type": "composition",
           "description": "color: var(--opn-text-white);"
@@ -230,11 +230,11 @@
           "value": {
             "fill": "{theme.status.error.darker}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
-            "borderWidth": "{border-width.none}"
+            "borderWidth": "{theme-border-width.none}"
           },
           "type": "composition",
           "description": "color: var(--opn-text-white);"
@@ -243,11 +243,11 @@
           "value": {
             "fill": "{theme.status.error.default}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
-            "borderWidth": "{border-width.none}"
+            "borderWidth": "{theme-border-width.none}"
           },
           "type": "composition",
           "description": "color: var(--opn-text-white);  outline-width: var(--opn-border-width-lg); outline-color: var(--opn-theme-status-error-lighter); outline-style: solid;"
@@ -255,10 +255,10 @@
         "disabled": {
           "value": {
             "fill": "{interactive.disabled}",
-            "borderWidth": "{border-width.sm}",
+            "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{desktop.button.medium}",
+            "typography": "{theme-desktoptypo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"

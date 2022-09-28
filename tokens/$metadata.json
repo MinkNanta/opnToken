@@ -1,5 +1,8 @@
 {
   "tokenSetOrder": [
+    "sys",
+    "theme",
+    "typography",
     "baseTheme",
     "buttons"
   ]
