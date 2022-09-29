@@ -1,0 +1,70 @@
+{
+  "theme-rounded": {
+    "default": {
+      "value": "{sys-rounded.sm}",
+      "type": "borderRadius"
+    },
+    "pill": {
+      "value": "{sys-rounded.full}",
+      "type": "borderRadius"
+    }
+  },
+  "theme-height": {
+    "cta": {
+      "xl": {
+        "value": "{sys-scale.14}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{sys-scale.12}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{sys-scale.10}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{sys-scale.8}",
+        "type": "sizing"
+      }
+    }
+  },
+  "theme-padding": {
+    "cta": {
+      "xl": {
+        "value": "{sys-spacing.lg}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{sys-spacing.default}",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "{sys-spacing.default}",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "{sys-spacing.sm}",
+        "type": "spacing"
+      }
+    }
+  },
+  "theme-gap": {
+    "cta": {
+      "default": {
+        "value": "{sys-spacing.xs}",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "{sys-spacing.xxs}",
+        "type": "spacing"
+      }
+    }
+  },
+  "theme-borderwidth": {
+    "button-focus": {
+      "value": "{sys-borderwidth.lg}",
+      "type": "borderWidth"
+    }
+  }
+}
