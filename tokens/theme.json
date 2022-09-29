@@ -90,7 +90,7 @@
         "type": "color"
       }
     },
-    "success": {
+    "status/success": {
       "darker": {
         "value": "#138064",
         "type": "color"
@@ -116,7 +116,7 @@
         "type": "color"
       }
     },
-    "warning": {
+    "status/warning": {
       "darker": {
         "value": "#cc9c0a",
         "type": "color"
@@ -142,7 +142,7 @@
         "type": "color"
       }
     },
-    "error": {
+    "status/error": {
       "darker": {
         "value": "#bf0a19",
         "type": "color"

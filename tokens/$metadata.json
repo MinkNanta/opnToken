@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
+    "baseTheme",
     "sys",
     "theme",
-    "typography",
-    "baseTheme",
+    "themetypo",
     "buttons"
   ]
 }

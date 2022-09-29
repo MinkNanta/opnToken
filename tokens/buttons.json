@@ -66,7 +66,7 @@
             "borderWidth": "{theme-border-width.none}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -80,7 +80,7 @@
             "borderWidth": "{theme-border-width.none}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -94,7 +94,7 @@
             "borderWidth": "{theme-border-width.none}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -106,7 +106,7 @@
           "value": {
             "fill": "{interactive.default}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -120,7 +120,7 @@
             "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -136,7 +136,7 @@
             "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -150,7 +150,7 @@
             "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -164,7 +164,7 @@
             "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -176,7 +176,7 @@
           "value": {
             "fill": "{theme.secondary.lighter}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -190,7 +190,7 @@
             "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
@@ -204,7 +204,7 @@
           "value": {
             "fill": "{theme.status.error.default}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
@@ -217,7 +217,7 @@
           "value": {
             "fill": "{theme.status.error.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
@@ -230,7 +230,7 @@
           "value": {
             "fill": "{theme.status.error.darker}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
@@ -243,7 +243,7 @@
           "value": {
             "fill": "{theme.status.error.default}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}",
@@ -258,7 +258,7 @@
             "borderWidth": "{theme-border-width.sm}",
             "border": "{borders.dark}",
             "height": "{button-height.medium}",
-            "typography": "{theme-desktoptypo.button.medium}",
+            "typography": "{theme-typo.button.medium}",
             "paddingRight": "{button-px.medium}",
             "paddingLeft": "{button-px.medium}",
             "borderRadius": "{button-rounded.radius}"
