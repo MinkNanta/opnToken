@@ -4,7 +4,6 @@
     "sys/color",
     "sys/typo",
     "theme/base",
-    "theme/color",
     "theme/typo-mobile",
     "theme/typo-desktop",
     "components/button",

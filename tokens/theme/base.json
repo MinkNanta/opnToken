@@ -1,70 +1,405 @@
 {
+  "theme-color": {
+    "primary": {
+      "darker": {
+        "value": "{sys-color.blue.800}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{sys-color.blue.700}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{sys-color.blue.600}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{sys-color.blue.500}",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "{sys-color.blue.100}",
+        "type": "color"
+      },
+      "lightest": {
+        "value": "{sys-color.blue.50}",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "darkest": {
+        "value": "{sys-color.neutral.800}",
+        "type": "color"
+      },
+      "darker": {
+        "value": "{sys-color.neutral.700}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{sys-color.neutral.600}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{sys-color.neutral.400}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{sys-color.neutral.200}",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "{sys-color.neutral.100}",
+        "type": "color"
+      },
+      "lightest": {
+        "value": "{sys-color.neutral.50}",
+        "type": "color"
+      },
+      "black": {
+        "value": "{sys-color.neutral.black}",
+        "type": "color"
+      },
+      "white": {
+        "value": "{sys-color.neutral.white}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "darker": {
+        "value": "#5c4700",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#8f710b",
+        "type": "color"
+      },
+      "default": {
+        "value": "#c29d1e",
+        "type": "color"
+      },
+      "light": {
+        "value": "#f5cb39",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "#ffe793",
+        "type": "color"
+      },
+      "lightest": {
+        "value": "#fffaeb",
+        "type": "color"
+      }
+    },
+    "success": {
+      "darker": {
+        "value": "#138064",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#08a67e",
+        "type": "color"
+      },
+      "default": {
+        "value": "#0abf92",
+        "type": "color"
+      },
+      "light": {
+        "value": "#77d9c0",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "#ccffee",
+        "type": "color"
+      },
+      "lightest": {
+        "value": "#e5fff7",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "darker": {
+        "value": "#cc9c0a",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#f2b90c",
+        "type": "color"
+      },
+      "default": {
+        "value": "#ffd24c",
+        "type": "color"
+      },
+      "light": {
+        "value": "#ffdf80",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "#ffefbf",
+        "type": "color"
+      },
+      "lightest": {
+        "value": "#fff9e5",
+        "type": "color"
+      }
+    },
+    "error": {
+      "darker": {
+        "value": "#bf0a19",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#d90b0b",
+        "type": "color"
+      },
+      "default": {
+        "value": "#f24949",
+        "type": "color"
+      },
+      "light": {
+        "value": "#ff7373",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "#ffcccc",
+        "type": "color"
+      },
+      "lightest": {
+        "value": "#fff2f3",
+        "type": "color"
+      }
+    },
+    "background": {
+      "default": {
+        "type": "color",
+        "value": "{theme-color.neutral.white}"
+      },
+      "secondary": {
+        "type": "color",
+        "value": "{theme-color.neutral.lightest}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{theme-color.neutral.lighter}"
+      },
+      "primary-subtle": {
+        "type": "color",
+        "value": "{theme-color.primary.lightest}"
+      },
+      "primary": {
+        "type": "color",
+        "value": "{theme-color.primary.default}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{theme-color.success.lightest}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{theme-color.warning.lightest}"
+      },
+      "error": {
+        "type": "color",
+        "value": "{theme-color.error.lightest}"
+      },
+      "none": {
+        "value": "rgba(255,255,255,0.1)",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{theme-color.neutral.darkest}",
+        "type": "color"
+      },
+      "black": {
+        "value": "{theme-color.neutral.black}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "grey": {
+        "type": "color",
+        "value": "{theme-color.neutral.dark}"
+      },
+      "light-grey": {
+        "type": "color",
+        "value": "{theme-color.neutral.default}"
+      },
+      "placeholder": {
+        "type": "color",
+        "value": "{theme-color.neutral.default}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{theme-color.neutral.light}"
+      },
+      "link": {
+        "type": "color",
+        "value": "{theme-color.primary.default}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{theme-color.success.dark}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{theme-color.warning.dark}"
+      },
+      "error": {
+        "type": "color",
+        "value": "{theme-color.error.dark}"
+      },
+      "onlight": {
+        "type": "color",
+        "value": "{theme-color.neutral.black}"
+      },
+      "ondarker": {
+        "value": "{theme-color.neutral.white}",
+        "type": "color"
+      }
+    },
+    "borders": {
+      "primary": {
+        "type": "color",
+        "value": "{theme-color.primary.default}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{theme-color.success.light}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{theme-color.warning.light}"
+      },
+      "error": {
+        "type": "color",
+        "value": "{theme-color.error.default}"
+      },
+      "light": {
+        "type": "color",
+        "value": "{theme-color.neutral.lighter}"
+      },
+      "dark": {
+        "type": "color",
+        "value": "{theme-color.neutral.light}"
+      },
+      "white": {
+        "type": "color",
+        "value": "{theme-color.neutral.white}"
+      },
+      "black": {
+        "type": "color",
+        "value": "{theme-color.neutral.black}"
+      }
+    },
+    "interactive": {
+      "default": {
+        "type": "color",
+        "value": "{theme-color.primary.default}"
+      },
+      "hover": {
+        "type": "color",
+        "value": "{theme-color.primary.dark}"
+      },
+      "pressed": {
+        "type": "color",
+        "value": "{theme-color.primary.darker}"
+      },
+      "focused": {
+        "type": "color",
+        "value": "{theme-color.primary.lighter}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{theme-color.neutral.lightest}"
+      }
+    }
+  },
   "theme-rounded": {
     "default": {
-      "value": "{sys-rounded.sm}",
+      "value": "{sys-rounded.none}",
       "type": "borderRadius"
-    },
-    "pill": {
-      "value": "{sys-rounded.full}",
-      "type": "borderRadius"
-    }
-  },
-  "theme-height": {
-    "cta": {
-      "xl": {
-        "value": "{sys-scale.14}",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{sys-scale.12}",
-        "type": "sizing"
-      },
-      "md": {
-        "value": "{sys-scale.10}",
-        "type": "sizing"
-      },
-      "sm": {
-        "value": "{sys-scale.8}",
-        "type": "sizing"
-      }
-    }
-  },
-  "theme-padding": {
-    "cta": {
-      "xl": {
-        "value": "{sys-spacing.lg}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{sys-spacing.default}",
-        "type": "spacing"
-      },
-      "md": {
-        "value": "{sys-spacing.default}",
-        "type": "spacing"
-      },
-      "sm": {
-        "value": "{sys-spacing.sm}",
-        "type": "spacing"
-      }
-    }
-  },
-  "theme-gap": {
-    "cta": {
-      "default": {
-        "value": "{sys-spacing.xs}",
-        "type": "spacing"
-      },
-      "sm": {
-        "value": "{sys-spacing.xxs}",
-        "type": "spacing"
-      }
     }
   },
   "theme-borderwidth": {
-    "button-focus": {
+    "default": {
+      "value": "{sys-borderwidth.sm}",
+      "type": "borderWidth"
+    },
+    "2xl": {
       "value": "{sys-borderwidth.lg}",
       "type": "borderWidth"
+    }
+  },
+  "theme-spacing": {
+    "none": {
+      "value": "{sys-spacing.none}",
+      "type": "spacing"
+    },
+    "xxs": {
+      "value": "{sys-spacing.xxs}",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "{sys-spacing.xs}",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "{sys-spacing.sm}",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "{sys-spacing.lg}",
+      "type": "spacing"
+    },
+    "2xl": {
+      "value": "{sys-spacing.2xl}",
+      "type": "spacing"
+    },
+    "5xl": {
+      "value": "{sys-spacing.5xl}",
+      "type": "spacing"
+    },
+    "6px": {
+      "value": "{theme-default.rem}*0.375",
+      "type": "spacing"
+    }
+  },
+  "theme-default": {
+    "rem": {
+      "value": "16",
+      "type": "other"
+    }
+  },
+  "theme-divide": {
+    "value": {
+      "borderWidthBottom": "{theme-borderwidth.default}",
+      "border": "{theme-color.text.placeholder}",
+      "paddingBottom": "{theme-spacing.sm}"
+    },
+    "type": "composition"
+  },
+  "theme-size": {
+    "sm": {
+      "value": "{sys-scale.5}",
+      "type": "sizing"
+    },
+    "xs": {
+      "value": "{sys-scale.4}",
+      "type": "sizing"
+    }
+  },
+  "theme-squarecontainer": {
+    "xs": {
+      "value": {
+        "horizontalPadding": "{theme-spacing.6px}",
+        "verticalPadding": "{theme-spacing.xs}"
+      },
+      "type": "composition"
+    },
+    "sm": {
+      "value": {
+        "height": "{theme-size.xs}"
+      },
+      "type": "composition"
     }
   }
 }
