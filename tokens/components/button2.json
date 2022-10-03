@@ -49,7 +49,7 @@
     "font": {
       "primary": {
         "enable": {
-          "value": "{theme-color.text.ondarker}",
+          "value": "{theme-color.text.white}",
           "type": "color"
         },
         "disenable": {

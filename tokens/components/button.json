@@ -62,15 +62,15 @@
     "font": {
       "enable": {
         "value": {
-          "fill": "{theme-color.text.ondarker}",
-          "typography": "{theme-typo.dektop-cta.md}"
+          "fill": "{theme-color.text.white}",
+          "typography": "{theme-typo.dektop-button.md}"
         },
         "type": "composition"
       },
       "disabled": {
         "value": {
           "fill": "{theme-color.text.disabled}",
-          "typography": "{theme-typo.dektop-cta.md}"
+          "typography": "{theme-typo.dektop-button.md}"
         },
         "type": "composition"
       }
@@ -132,14 +132,14 @@
       "enable": {
         "value": {
           "fill": "{theme-color.interactive.default}",
-          "typography": "{theme-typo.dektop-cta.md}"
+          "typography": "{theme-typo.dektop-button.md}"
         },
         "type": "composition"
       },
       "disabled": {
         "value": {
           "fill": "{theme-color.text.disabled}",
-          "typography": "{theme-typo.dektop-cta.md}"
+          "typography": "{theme-typo.dektop-button.md}"
         },
         "type": "composition"
       }

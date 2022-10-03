@@ -298,12 +298,12 @@
         "type": "typography"
       }
     },
-    "dektop-cta": {
+    "dektop-button": {
       "xl": {
         "value": {
           "fontFamily": "{sys-font-type.body}",
           "fontWeight": "{sys-font-weights.normal}",
-          "lineHeight": "{sys-font-leading.tight}",
+          "lineHeight": "{sys-font-leading.none}",
           "fontSize": "{sys-font-sizes.lg}",
           "letterSpacing": "{sys-font-letterspacing.normal}",
           "paragraphSpacing": "{sys-font-paragraphspacing.none}",
@@ -316,7 +316,7 @@
         "value": {
           "fontFamily": "{sys-font-type.body}",
           "fontWeight": "{sys-font-weights.normal}",
-          "lineHeight": "{sys-font-leading.tight}",
+          "lineHeight": "{sys-font-leading.none}",
           "fontSize": "{sys-font-sizes.base}",
           "letterSpacing": "{sys-font-letterspacing.normal}",
           "paragraphSpacing": "{sys-font-paragraphspacing.none}",
@@ -329,7 +329,7 @@
         "value": {
           "fontFamily": "{sys-font-type.body}",
           "fontWeight": "{sys-font-weights.normal}",
-          "lineHeight": "{sys-font-leading.tight}",
+          "lineHeight": "{sys-font-leading.none}",
           "fontSize": "{sys-font-sizes.sm}",
           "letterSpacing": "{sys-font-letterspacing.normal}",
           "paragraphSpacing": "{sys-font-paragraphspacing.none}",
@@ -342,7 +342,7 @@
         "value": {
           "fontFamily": "{sys-font-type.body}",
           "fontWeight": "{sys-font-weights.normal}",
-          "lineHeight": "{sys-font-leading.tight}",
+          "lineHeight": "{sys-font-leading.none}",
           "fontSize": "{sys-font-sizes.xs}",
           "letterSpacing": "{sys-font-letterspacing.normal}",
           "paragraphSpacing": "{sys-font-paragraphspacing.none}",
