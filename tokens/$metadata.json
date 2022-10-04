@@ -1,12 +1,5 @@
 {
   "tokenSetOrder": [
-    "sys/base",
-    "sys/color",
-    "sys/typo",
-    "theme/base",
-    "theme/typo-mobile",
-    "theme/typo-desktop",
-    "components/button",
-    "components/button2"
+    "nativeBase"
   ]
 }
