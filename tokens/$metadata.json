@@ -1,5 +1,6 @@
 {
   "tokenSetOrder": [
-    "nativeBase"
+    "nativeBase",
+    "nativeBase_backup"
   ]
 }
