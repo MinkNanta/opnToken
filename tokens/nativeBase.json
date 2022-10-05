@@ -1033,45 +1033,47 @@
     }
   },
   "Text": {
-    "text": {
-      "50": {
+    "dark": {
+      "primary": {
         "value": "{Opn.opngrey.50}",
         "type": "color"
       },
-      "100": {
+      "secondary": {
         "value": "{Opn.opngrey.100}",
         "type": "color"
       },
-      "200": {
-        "value": "{Opn.opngrey.200}",
-        "type": "color"
-      },
-      "300": {
-        "value": "{Opn.opngrey.300}",
-        "type": "color"
-      },
-      "400": {
+      "tertiary": {
         "value": "{Opn.opngrey.400}",
         "type": "color"
       },
-      "500": {
-        "value": "{Opn.opngrey.500}",
-        "type": "color"
-      },
-      "600": {
+      "disabled": {
         "value": "{Opn.opngrey.600}",
         "type": "color"
       },
-      "700": {
-        "value": "{Opn.opngrey.700}",
+      "accent": {
+        "value": "{Opn.opnblue.500}",
         "type": "color"
-      },
-      "800": {
-        "value": "{Opn.opngrey.800}",
-        "type": "color"
-      },
-      "900": {
+      }
+    },
+    "light": {
+      "primary": {
         "value": "{Opn.opngrey.900}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Opn.opngrey.600}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Opn.opngrey.400}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{Opn.opngrey.300}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{Opn.opnblue.600}",
         "type": "color"
       }
     },
