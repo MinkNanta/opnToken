@@ -805,43 +805,43 @@
   "Info": {
     "info": {
       "50": {
-        "value": "#f2f6ff",
+        "value": "{Opn.opnblue.50}",
         "type": "color"
       },
       "100": {
-        "value": "#d9e6ff",
+        "value": "{Opn.opnblue.100}",
         "type": "color"
       },
       "200": {
-        "value": "#b6caf2",
+        "value": "{Opn.opnblue.200}",
         "type": "color"
       },
       "300": {
-        "value": "#91b1f2",
+        "value": "{Opn.opnblue.300}",
         "type": "color"
       },
       "400": {
-        "value": "#6d99f2",
+        "value": "{Opn.opnblue.400}",
         "type": "color"
       },
       "500": {
-        "value": "#457ae5",
+        "value": "{Opn.opnblue.500}",
         "type": "color"
       },
       "600": {
-        "value": "#1451cc",
+        "value": "{Opn.opnblue.600}",
         "type": "color"
       },
       "700": {
-        "value": "#173799",
+        "value": "{Opn.opnblue.700}",
         "type": "color"
       },
       "800": {
-        "value": "#192c66",
+        "value": "{Opn.opnblue.800}",
         "type": "color"
       },
       "900": {
-        "value": "#17244c",
+        "value": "{Opn.opnblue.900}",
         "type": "color"
       }
     }
@@ -849,43 +849,43 @@
   "Success": {
     "success": {
       "50": {
-        "value": "#e5fff7",
+        "value": "{Opn.opngreen.50}",
         "type": "color"
       },
       "100": {
-        "value": "#d9fff2",
+        "value": "{Opn.opngreen.100}",
         "type": "color"
       },
       "200": {
-        "value": "#ccffee",
+        "value": "{Opn.opngreen.200}",
         "type": "color"
       },
       "300": {
-        "value": "#a9f2e0",
+        "value": "{Opn.opngreen.300}",
         "type": "color"
       },
       "400": {
-        "value": "#77d9c0",
+        "value": "{Opn.opngreen.400}",
         "type": "color"
       },
       "500": {
-        "value": "#0abf92",
+        "value": "{Opn.opngreen.500}",
         "type": "color"
       },
       "600": {
-        "value": "#08a67e",
+        "value": "{Opn.opngreen.600}",
         "type": "color"
       },
       "700": {
-        "value": "#138064",
+        "value": "{Opn.opngreen.700}",
         "type": "color"
       },
       "800": {
-        "value": "#045944",
+        "value": "{Opn.opngreen.800}",
         "type": "color"
       },
       "900": {
-        "value": "#034031",
+        "value": "{Opn.opngreen.900}",
         "type": "color"
       }
     }
@@ -893,43 +893,43 @@
   "Error": {
     "error": {
       "50": {
-        "value": "#fff2f3",
+        "value": "{Opn.opnred.50}",
         "type": "color"
       },
       "100": {
-        "value": "#ffe5e8",
+        "value": "{Opn.opnred.100}",
         "type": "color"
       },
       "200": {
-        "value": "#ffcccc",
+        "value": "{Opn.opnred.200}",
         "type": "color"
       },
       "300": {
-        "value": "#ff9999",
+        "value": "{Opn.opnred.300}",
         "type": "color"
       },
       "400": {
-        "value": "#ff7373",
+        "value": "{Opn.opnred.400}",
         "type": "color"
       },
       "500": {
-        "value": "#f24949",
+        "value": "{Opn.opnred.500}",
         "type": "color"
       },
       "600": {
-        "value": "#d90b0b",
+        "value": "{Opn.opnred.600}",
         "type": "color"
       },
       "700": {
-        "value": "#bf0a19",
+        "value": "{Opn.opnred.700}",
         "type": "color"
       },
       "800": {
-        "value": "#8c0e19",
+        "value": "{Opn.opnred.800}",
         "type": "color"
       },
       "900": {
-        "value": "#66050d",
+        "value": "{Opn.opnred.900}",
         "type": "color"
       }
     }
@@ -937,43 +937,43 @@
   "Warning": {
     "warning": {
       "50": {
-        "value": "#fff9e5",
+        "value": "{Opn.opnyellow.50}",
         "type": "color"
       },
       "100": {
-        "value": "#fff5d9",
+        "value": "{Opn.opnyellow.100}",
         "type": "color"
       },
       "200": {
-        "value": "#ffefbf",
+        "value": "{Opn.opnyellow.200}",
         "type": "color"
       },
       "300": {
-        "value": "#ffe9a6",
+        "value": "{Opn.opnyellow.300}",
         "type": "color"
       },
       "400": {
-        "value": "#ffdf80",
+        "value": "{Opn.opnyellow.400}",
         "type": "color"
       },
       "500": {
-        "value": "#ffd24c",
+        "value": "{Opn.opnyellow.500}",
         "type": "color"
       },
       "600": {
-        "value": "#f2b90c",
+        "value": "{Opn.opnyellow.600}",
         "type": "color"
       },
       "700": {
-        "value": "#cc9c0a",
+        "value": "{Opn.opnyellow.700}",
         "type": "color"
       },
       "800": {
-        "value": "#997817",
+        "value": "{Opn.opnyellow.800}",
         "type": "color"
       },
       "900": {
-        "value": "#735a11",
+        "value": "{Opn.opnyellow.900}",
         "type": "color"
       }
     }
@@ -991,43 +991,43 @@
   "Muted": {
     "muted": {
       "50": {
-        "value": "#f2f4f7",
+        "value": "{Opn.opngrey.50}",
         "type": "color"
       },
       "100": {
-        "value": "#e6eaf2",
+        "value": "{Opn.opngrey.100}",
         "type": "color"
       },
       "200": {
-        "value": "#ced3de",
+        "value": "{Opn.opngrey.200}",
         "type": "color"
       },
       "300": {
-        "value": "#b8becc",
+        "value": "{Opn.opngrey.300}",
         "type": "color"
       },
       "400": {
-        "value": "#98a1b2",
+        "value": "{Opn.opngrey.400}",
         "type": "color"
       },
       "500": {
-        "value": "#7a8499",
+        "value": "{Opn.opngrey.500}",
         "type": "color"
       },
       "600": {
-        "value": "#475266",
+        "value": "{Opn.opngrey.600}",
         "type": "color"
       },
       "700": {
-        "value": "#323b4c",
+        "value": "{Opn.opngrey.700}",
         "type": "color"
       },
       "800": {
-        "value": "#1c2433",
+        "value": "{Opn.opngrey.800}",
         "type": "color"
       },
       "900": {
-        "value": "#131926",
+        "value": "{Opn.opngrey.900}",
         "type": "color"
       }
     }
@@ -1035,43 +1035,43 @@
   "Text": {
     "text": {
       "50": {
-        "value": "#f2f4f7",
+        "value": "{Opn.opngrey.50}",
         "type": "color"
       },
       "100": {
-        "value": "#e6eaf2",
+        "value": "{Opn.opngrey.100}",
         "type": "color"
       },
       "200": {
-        "value": "#ced3de",
+        "value": "{Opn.opngrey.200}",
         "type": "color"
       },
       "300": {
-        "value": "#b8becc",
+        "value": "{Opn.opngrey.300}",
         "type": "color"
       },
       "400": {
-        "value": "#98a1b2",
+        "value": "{Opn.opngrey.400}",
         "type": "color"
       },
       "500": {
-        "value": "#7a8499",
+        "value": "{Opn.opngrey.500}",
         "type": "color"
       },
       "600": {
-        "value": "#475266",
+        "value": "{Opn.opngrey.600}",
         "type": "color"
       },
       "700": {
-        "value": "#323b4c",
+        "value": "{Opn.opngrey.700}",
         "type": "color"
       },
       "800": {
-        "value": "#1c2433",
+        "value": "{Opn.opngrey.800}",
         "type": "color"
       },
       "900": {
-        "value": "#131926",
+        "value": "{Opn.opngrey.900}",
         "type": "color"
       }
     },
