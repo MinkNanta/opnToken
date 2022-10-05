@@ -287,43 +287,43 @@
   "Primary": {
     "primary": {
       "50": {
-        "value": "{Opn.opnblue.50}",
+        "value": "{Blue.blue.50}",
         "type": "color"
       },
       "100": {
-        "value": "{Opn.opnblue.100}",
+        "value": "{Blue.blue.100}",
         "type": "color"
       },
       "200": {
-        "value": "{Opn.opnblue.200}",
+        "value": "{Blue.blue.300}",
         "type": "color"
       },
       "300": {
-        "value": "{Opn.opnblue.300}",
+        "value": "{Blue.blue.400}",
         "type": "color"
       },
       "400": {
-        "value": "{Opn.opnblue.400}",
+        "value": "{Blue.blue.400}",
         "type": "color"
       },
       "500": {
-        "value": "{Opn.opnblue.500}",
+        "value": "{Blue.blue.500}",
         "type": "color"
       },
       "600": {
-        "value": "{Opn.opnblue.600}",
+        "value": "{Blue.blue.600}",
         "type": "color"
       },
       "700": {
-        "value": "{Opn.opnblue.700}",
+        "value": "{Blue.blue.700}",
         "type": "color"
       },
       "800": {
-        "value": "{Opn.opnblue.800}",
+        "value": "{Blue.blue.800}",
         "type": "color"
       },
       "900": {
-        "value": "{Opn.opnblue.900}",
+        "value": "{Blue.blue.900}",
         "type": "color"
       }
     }
@@ -331,43 +331,43 @@
   "Info": {
     "info": {
       "50": {
-        "value": "{Opn.opnblue.50}",
+        "value": "{Blue.blue.50}",
         "type": "color"
       },
       "100": {
-        "value": "{Opn.opnblue.100}",
+        "value": "{Blue.blue.100}",
         "type": "color"
       },
       "200": {
-        "value": "{Opn.opnblue.200}",
+        "value": "{Blue.blue.300}",
         "type": "color"
       },
       "300": {
-        "value": "{Opn.opnblue.300}",
+        "value": "{Blue.blue.400}",
         "type": "color"
       },
       "400": {
-        "value": "{Opn.opnblue.400}",
+        "value": "{Blue.blue.400}",
         "type": "color"
       },
       "500": {
-        "value": "{Opn.opnblue.500}",
+        "value": "{Blue.blue.500}",
         "type": "color"
       },
       "600": {
-        "value": "{Opn.opnblue.600}",
+        "value": "{Blue.blue.600}",
         "type": "color"
       },
       "700": {
-        "value": "{Opn.opnblue.700}",
+        "value": "{Blue.blue.700}",
         "type": "color"
       },
       "800": {
-        "value": "{Opn.opnblue.800}",
+        "value": "{Blue.blue.800}",
         "type": "color"
       },
       "900": {
-        "value": "{Opn.opnblue.900}",
+        "value": "{Blue.blue.900}",
         "type": "color"
       }
     }
@@ -375,43 +375,43 @@
   "Success": {
     "success": {
       "50": {
-        "value": "{Opn.opngreen.50}",
+        "value": "{Green.green.50}",
         "type": "color"
       },
       "100": {
-        "value": "{Opn.opngreen.100}",
+        "value": "{Green.green.100}",
         "type": "color"
       },
       "200": {
-        "value": "{Opn.opngreen.200}",
+        "value": "{Green.green.300}",
         "type": "color"
       },
       "300": {
-        "value": "{Opn.opngreen.300}",
+        "value": "{Green.green.400}",
         "type": "color"
       },
       "400": {
-        "value": "{Opn.opngreen.400}",
+        "value": "{Green.green.400}",
         "type": "color"
       },
       "500": {
-        "value": "{Opn.opngreen.500}",
+        "value": "{Green.green.500}",
         "type": "color"
       },
       "600": {
-        "value": "{Opn.opngreen.600}",
+        "value": "{Green.green.600}",
         "type": "color"
       },
       "700": {
-        "value": "{Opn.opngreen.700}",
+        "value": "{Green.green.700}",
         "type": "color"
       },
       "800": {
-        "value": "{Opn.opngreen.800}",
+        "value": "{Green.green.800}",
         "type": "color"
       },
       "900": {
-        "value": "{Opn.opngreen.900}",
+        "value": "{Green.green.900}",
         "type": "color"
       }
     }
@@ -419,43 +419,43 @@
   "Error": {
     "error": {
       "50": {
-        "value": "{Opn.opnred.50}",
+        "value": "{Red.red.50}",
         "type": "color"
       },
       "100": {
-        "value": "{Opn.opnred.100}",
+        "value": "{Red.red.100}",
         "type": "color"
       },
       "200": {
-        "value": "{Opn.opnred.200}",
+        "value": "{Red.red.300}",
         "type": "color"
       },
       "300": {
-        "value": "{Opn.opnred.300}",
+        "value": "{Red.red.400}",
         "type": "color"
       },
       "400": {
-        "value": "{Opn.opnred.400}",
+        "value": "{Red.red.400}",
         "type": "color"
       },
       "500": {
-        "value": "{Opn.opnred.500}",
+        "value": "{Red.red.500}",
         "type": "color"
       },
       "600": {
-        "value": "{Opn.opnred.600}",
+        "value": "{Red.red.600}",
         "type": "color"
       },
       "700": {
-        "value": "{Opn.opnred.700}",
+        "value": "{Red.red.700}",
         "type": "color"
       },
       "800": {
-        "value": "{Opn.opnred.800}",
+        "value": "{Red.red.800}",
         "type": "color"
       },
       "900": {
-        "value": "{Opn.opnred.900}",
+        "value": "{Red.red.900}",
         "type": "color"
       }
     }
@@ -463,43 +463,43 @@
   "Warning": {
     "warning": {
       "50": {
-        "value": "{Opn.opnyellow.50}",
+        "value": "{Yellow.yellow.50}",
         "type": "color"
       },
       "100": {
-        "value": "{Opn.opnyellow.100}",
+        "value": "{Yellow.yellow.100}",
         "type": "color"
       },
       "200": {
-        "value": "{Opn.opnyellow.200}",
+        "value": "{Yellow.yellow.300}",
         "type": "color"
       },
       "300": {
-        "value": "{Opn.opnyellow.300}",
+        "value": "{Yellow.yellow.400}",
         "type": "color"
       },
       "400": {
-        "value": "{Opn.opnyellow.400}",
+        "value": "{Yellow.yellow.400}",
         "type": "color"
       },
       "500": {
-        "value": "{Opn.opnyellow.500}",
+        "value": "{Yellow.yellow.500}",
         "type": "color"
       },
       "600": {
-        "value": "{Opn.opnyellow.600}",
+        "value": "{Yellow.yellow.600}",
         "type": "color"
       },
       "700": {
-        "value": "{Opn.opnyellow.700}",
+        "value": "{Yellow.yellow.700}",
         "type": "color"
       },
       "800": {
-        "value": "{Opn.opnyellow.800}",
+        "value": "{Yellow.yellow.800}",
         "type": "color"
       },
       "900": {
-        "value": "{Opn.opnyellow.900}",
+        "value": "{Yellow.yellow.900}",
         "type": "color"
       }
     }
@@ -517,43 +517,43 @@
   "Muted": {
     "muted": {
       "50": {
-        "value": "{Opn.opngrey.50}",
+        "value": "{Gray.gray.50}",
         "type": "color"
       },
       "100": {
-        "value": "{Opn.opngrey.100}",
+        "value": "{Gray.gray.100}",
         "type": "color"
       },
       "200": {
-        "value": "{Opn.opngrey.200}",
+        "value": "{Gray.gray.200}",
         "type": "color"
       },
       "300": {
-        "value": "{Opn.opngrey.300}",
+        "value": "{Gray.gray.300}",
         "type": "color"
       },
       "400": {
-        "value": "{Opn.opngrey.400}",
+        "value": "{Gray.gray.400}",
         "type": "color"
       },
       "500": {
-        "value": "{Opn.opngrey.500}",
+        "value": "{Gray.gray.500}",
         "type": "color"
       },
       "600": {
-        "value": "{Opn.opngrey.600}",
+        "value": "{Gray.gray.600}",
         "type": "color"
       },
       "700": {
-        "value": "{Opn.opngrey.700}",
+        "value": "{Gray.gray.700}",
         "type": "color"
       },
       "800": {
-        "value": "{Opn.opngrey.800}",
+        "value": "{Gray.gray.800}",
         "type": "color"
       },
       "900": {
-        "value": "{Opn.opngrey.900}",
+        "value": "{Gray.gray.900}",
         "type": "color"
       }
     }
@@ -561,45 +561,45 @@
   "Text": {
     "dark": {
       "primary": {
-        "value": "{Opn.opngrey.50}",
+        "value": "{Gray.gray.50}",
         "type": "color"
       },
       "secondary": {
-        "value": "{Opn.opngrey.100}",
+        "value": "{Gray.gray.100}",
         "type": "color"
       },
       "tertiary": {
-        "value": "{Opn.opngrey.400}",
+        "value": "{Gray.gray.400}",
         "type": "color"
       },
       "disabled": {
-        "value": "{Opn.opngrey.600}",
+        "value": "{Gray.gray.600}",
         "type": "color"
       },
       "accent": {
-        "value": "{Opn.opnblue.500}",
+        "value": "{Blue.blue.500}",
         "type": "color"
       }
     },
     "light": {
       "primary": {
-        "value": "{Opn.opngrey.900}",
+        "value": "{Gray.gray.900}",
         "type": "color"
       },
       "secondary": {
-        "value": "{Opn.opngrey.600}",
+        "value": "{Gray.gray.600}",
         "type": "color"
       },
       "tertiary": {
-        "value": "{Opn.opngrey.400}",
+        "value": "{Gray.gray.400}",
         "type": "color"
       },
       "disabled": {
-        "value": "{Opn.opngrey.300}",
+        "value": "{Gray.gray.300}",
         "type": "color"
       },
       "accent": {
-        "value": "{Opn.opnblue.600}",
+        "value": "{Blue.blue.600}",
         "type": "color"
       }
     }
