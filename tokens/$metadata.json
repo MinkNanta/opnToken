@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
-    "nativeBase",
-    "nativeBase_backup"
+    "nativeBase_backup",
+    "Extended Colors",
+    "nativeBase"
   ]
 }
