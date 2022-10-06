@@ -202,7 +202,7 @@
   },
   "letterSpacings": {
     "xs": {
-      "value": "-0.05%",
+      "value": "-2%",
       "type": "letterSpacing"
     },
     "sm": {
