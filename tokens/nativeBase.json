@@ -179,7 +179,7 @@
       "value": "{fontSizes.md} * 2.25",
       "type": "fontSizes"
     },
-    "5xls": {
+    "5xl": {
       "value": "{fontSizes.md} * 3",
       "type": "fontSizes"
     },
@@ -219,10 +219,6 @@
     },
     "xl": {
       "value": "2%",
-      "type": "letterSpacing"
-    },
-    "2xl": {
-      "value": "3%",
       "type": "letterSpacing"
     }
   },
@@ -564,7 +560,7 @@
     }
   },
   "Text": {
-    "dark": {
+    "textdark": {
       "primary": {
         "value": "{Gray.gray.50}",
         "type": "color"
@@ -586,7 +582,7 @@
         "type": "color"
       }
     },
-    "light": {
+    "textlight": {
       "primary": {
         "value": "{Gray.gray.900}",
         "type": "color"
@@ -694,7 +690,7 @@
           "fontFamily": "{fonts.heading}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "{lineHeights.lg}",
-          "fontSize": "{fontSizes.5xls}",
+          "fontSize": "{fontSizes.5xl}",
           "letterSpacing": "{letterSpacings.md}",
           "paragraphSpacing": "",
           "textCase": "",
@@ -839,7 +835,7 @@
           "fontFamily": "{fonts.heading}",
           "fontWeight": "{fontWeights.thin}",
           "lineHeight": "{lineHeights.lg}",
-          "fontSize": "{fontSizes.5xls}",
+          "fontSize": "{fontSizes.5xl}",
           "letterSpacing": "{letterSpacings.md}",
           "paragraphSpacing": "",
           "textCase": "",
