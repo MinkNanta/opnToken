@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "Extended Colors",
-    "nativeBase"
+    "extendedColors",
+    "themeSystem"
   ]
 }

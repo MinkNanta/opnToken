@@ -1,5 +1,5 @@
 {
-  "Yellow": {
+  "colors": {
     "yellow": {
       "50": {
         "value": "#fff9e5",
@@ -41,9 +41,7 @@
         "value": "#735a11",
         "type": "color"
       }
-    }
-  },
-  "Orange": {
+    },
     "orange": {
       "50": {
         "value": "#fff8f2",
@@ -85,9 +83,7 @@
         "value": "#734211",
         "type": "color"
       }
-    }
-  },
-  "Red": {
+    },
     "red": {
       "50": {
         "value": "#fff2f3",
@@ -129,9 +125,7 @@
         "value": "#66050d",
         "type": "color"
       }
-    }
-  },
-  "Purple": {
+    },
     "purple": {
       "50": {
         "value": "#f5f2ff",
@@ -173,9 +167,7 @@
         "value": "#2a1173",
         "type": "color"
       }
-    }
-  },
-  "Blue": {
+    },
     "blue": {
       "50": {
         "value": "#f2f6ff",
@@ -217,9 +209,7 @@
         "value": "#17244c",
         "type": "color"
       }
-    }
-  },
-  "Green": {
+    },
     "green": {
       "50": {
         "value": "#e5fff7",
@@ -261,9 +251,7 @@
         "value": "#034031",
         "type": "color"
       }
-    }
-  },
-  "Gray": {
+    },
     "gray": {
       "50": {
         "value": "#f2f4f7",
